@@ -7,6 +7,53 @@
    - ALL original rules preserved exactly
    ============================================================================= */
 
+/* =============================================================================
+   FULL-WIDTH NAVIGATION BAR FIX (Priority Rules)
+   Works on ALL page types (Article, Basic page, etc.)
+   Placed at top of file for maximum specificity
+   ============================================================================= */
+@media screen and (min-width: 769px) {
+  /* Force position: relative on #main-menu for pseudo-element to work */
+  html body #main-menu,
+  html body.node-type-page #main-menu,
+  html body.node-type-article #main-menu,
+  html body[class*="node-type-"] #main-menu {
+    position: relative !important;
+    margin-bottom: 0 !important;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 30%) !important;
+    z-index: 1 !important;
+  }
+
+  /* Pseudo-element extends navigation background to full viewport width */
+  html body #main-menu::before,
+  html body.node-type-page #main-menu::before,
+  html body.node-type-article #main-menu::before,
+  html body[class*="node-type-"] #main-menu::before {
+    content: "" !important;
+    position: absolute !important;
+    left: calc(-50vw + 50%) !important;
+    width: 100vw !important;
+    z-index: -1 !important;
+    background-color: #4d4d4d !important;
+    display: block !important;
+    height: 33px !important;
+    top: 0 !important;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 30%) !important;
+  }
+
+  /* Ensure parent containers don't clip the pseudo-element */
+  html body #navbar,
+  html body #navbar .container,
+  html body header#navbar,
+  html body header#navbar .container,
+  html body .wrapper,
+  html body .wrapper header,
+  html body .wrapper header .container {
+    overflow: visible !important;
+  }
+}
+/* End navigation bar fix */
+
 *, html {
   scroll-behavior: smooth;
 }
