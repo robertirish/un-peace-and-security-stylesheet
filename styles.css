@@ -2648,7 +2648,8 @@ body[class*="property-type-"] .content-container *:not(h1, h2, h3, h4, h5, h6) {
 }
 
 /* Small text for summaries/accordion content */
-.text-small p {
+.text-small p,
+.text-small p a {
   font-size: 16px !important;
   line-height: 1.5 !important;
 }
