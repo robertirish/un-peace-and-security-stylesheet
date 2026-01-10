@@ -2647,23 +2647,8 @@ body[class*="property-type-"] .content-container *:not(h1, h2, h3, h4, h5, h6) {
     }
 }
 
-/* Small text for summaries/accordion content */
-.text-small,
-.text-small p,
-.text-small a {
+/* Small text for summaries/accordion content - only affects paragraphs */
+.text-small p {
   font-size: 16px !important;
   line-height: 1.5 !important;
-}
-
-.text-small h3,
-.text-small h3 a {
-  font-size: 18px !important;
-  font-weight: 600 !important;
-  margin-bottom: 8px !important;
-}
-
-.text-small h4 {
-  font-size: 16px !important;
-  font-weight: 600 !important;
-  margin-bottom: 6px !important;
 }
