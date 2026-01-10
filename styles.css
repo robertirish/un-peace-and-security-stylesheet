@@ -2652,3 +2652,7 @@ body[class*="property-type-"] .content-container *:not(h1, h2, h3, h4, h5, h6) {
   font-size: 16px !important;
   line-height: 1.5 !important;
 }
+
+.text-small h3 {
+  margin-top: 0 !important;
+}
