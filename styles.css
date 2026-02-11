@@ -2105,10 +2105,6 @@ body[class*="property-type-"] .content-container *:not(h1, h2, h3, h4, h5, h6) {
 }
 
 /* Additional content-container utilities */
-.content-container.margin-top {
-    margin-top: 40px !important;
-}
-
 .content-container.background-blue {
     background-color: #2b21ce !important;
     margin-top: 80px;
