@@ -227,6 +227,11 @@ body[class*="node-type-"] .content-container figure {
     text-transform: uppercase !important;
 }
 
+.content-container ul {
+    margin-left: 8px !important;
+    width: auto !important;
+}
+
 @media screen and (min-width: 769px) {
     .content-container h1,
     .content-container *.style-h1 {
