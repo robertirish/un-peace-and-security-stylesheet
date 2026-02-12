@@ -330,6 +330,12 @@ body[class*="node-type-"] .content-container figure {
     padding-right: 16px;
 }
 
+.content-container.full-width:has(.image-banner.full-width) {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .content-container.full-width > * {
     width: 100%;  
     max-width: 100%;
