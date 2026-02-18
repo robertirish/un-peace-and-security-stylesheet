@@ -2675,3 +2675,26 @@ body[class*="property-type-"] .content-container *:not(h1, h2, h3, h4, h5, h6) {
   font-size: 16px !important;
   font-size: 1.6rem !important;
 }
+
+/* new story label styles */
+.three-col.series-label-top .block-series-header {
+	border-bottom: 4px solid #2b21ce;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	position: relative;
+	top: 1px;
+	z-index: 10;
+}
+.three-col.series-label-top .block-series-label {
+	display: block;
+	font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px !important;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #888;
+	text-decoration: none;
+}
+.three-col.series-label-top .block-series-label:hover,
+.three-col.series-label-top .block-series-label:focus {
+	color: #454545;
+}
