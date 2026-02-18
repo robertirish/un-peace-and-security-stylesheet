@@ -2240,10 +2240,6 @@ body[class*="property-type-"] .content-container *:not(h1, h2, h3, h4, h5, h6) {
     margin-right: auto !important;
 }
 
-.image-banner-content h3 {
-    text-align: center !important;
-}
-
 .image-banner-image {
     padding-left: 20px;
     padding-right: 20px;
