@@ -1334,7 +1334,7 @@ body[class*="property-type-"] .content-container *:not(h1, h2, h3, h4, h5, h6) {
     margin-right: auto !important;
 }
 
-.content-container .image-banner-content h3 {
+.content-container .image-banner-content h3.align-center {
     text-align: center !important;
 }
 
