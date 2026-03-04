@@ -155,7 +155,7 @@ body[class*="node-type-"] .content-container figure {
 .content-container h1.heading-underline::after,
 .content-container h2.heading-underline::after,
 .content-container h3.heading-underline::after {
-    margin-top: 16px;
+    margin-top: 16px !important;
     margin-bottom: 24px;
 }
 
