@@ -1440,6 +1440,10 @@ body[class*="property-type-"] .content-container *:not(h1, h2, h3, h4, h5, h6) {
     padding-right: 0;
 }
 
+.content-container .image-banner.full-width .image-banner-image {
+    align-self: stretch;
+}
+
 .content-container .image-banner.full-width:has(.image-banner-content) {
     min-height: 0;
 }
