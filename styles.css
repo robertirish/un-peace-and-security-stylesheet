@@ -227,12 +227,12 @@ body[class*="node-type-"] .content-container figure {
     text-transform: uppercase !important;
 }
 
-.content-container ul {
-    width: 100%;
+.content-container > ul {
+    width: 100% !important;
 }
 
-.content-container ul li {
-    margin-left: 16px;
+.content-container > ul li {
+    margin-left: 16px !important;
 }
 
 @media screen and (min-width: 769px) {
