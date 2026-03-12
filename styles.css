@@ -909,6 +909,10 @@ body[class*="property-type-"] .content-container *:not(h1, h2, h3, h4, h5, h6) {
     padding-bottom: 133.3333333%;
 }
 
+.content-container .block-image.ratio-banner {
+    padding-bottom: 28% !important;
+}
+
 .ratio-1-1 {
     display: block;
     width: 100%;
