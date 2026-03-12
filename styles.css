@@ -254,7 +254,7 @@ body[class*="node-type-"] .content-container figure {
         font-size: 2.8rem;
     }
 
-    .content-container h4
+    .content-container h4,
     .content-container *.style-h4 {
         font-size: 28px;
         font-size: 2.8rem;
