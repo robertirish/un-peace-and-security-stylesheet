@@ -841,6 +841,10 @@ body[class*="property-type-"] .content-container *:not(h1, h2, h3, h4, h5, h6) {
     .content-container .col-layout.horizontal .col-block .block-image {
         padding-bottom: 33.3333333%;
     }
+
+    .content-container .col-layout.horizontal .col-block .block-image.ratio-banner {
+        padding-bottom: 28%;
+    }
 }
 
 /* two-col, three-col */
@@ -910,7 +914,7 @@ body[class*="property-type-"] .content-container *:not(h1, h2, h3, h4, h5, h6) {
 }
 
 .content-container .block-image.ratio-banner {
-    padding-bottom: 28% !important;
+    padding-bottom: 56.25%;
 }
 
 .ratio-1-1 {
